@@ -3,7 +3,7 @@
     <Header />
     <div class="main">
       <Interf />
-      <Footer />
+      <Footer ref="footer" />
     </div>
   </div>
 </template>
@@ -21,5 +21,9 @@ import Header from './Header.vue';
     Header,
   },
 })
-export default class Content extends Vue {}
+export default class Content extends Vue {
+  mounted() {
+    console.log('check', this.$refs.footer);
+  }
+}
 </script>

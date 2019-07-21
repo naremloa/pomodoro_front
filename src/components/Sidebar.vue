@@ -12,5 +12,7 @@ import { Component, Vue } from 'vue-property-decorator';
   components: {
   },
 })
-export default class Sidebar extends Vue {}
+export default class Sidebar extends Vue {
+
+}
 </script>

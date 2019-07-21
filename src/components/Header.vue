@@ -1,7 +1,7 @@
 <template>
   <div class="header">
-    <div>星期六 13:38</div>
-    <div>2019.07.13</div>
+    <span>星期六 13:38</span>
+    <span>2019.07.13</span>
   </div>
 </template>
 
