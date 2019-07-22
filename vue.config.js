@@ -1,3 +1,5 @@
 module.exports = {
-  baseUrl: '/pomodoro',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/pomodoro/'
+    : '/',
 };
